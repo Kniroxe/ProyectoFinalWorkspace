@@ -94,3 +94,164 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 10:31:03.738
+!MESSAGE Classpath changed for project: ECommerceEureka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 10:31:03.745
+!MESSAGE Boot project ADDED: ECommerceEureka
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-04-21 10:31:03.748
+!MESSAGE <project root> [in ECommerceEureka] is not on its project's build path
+!STACK 1
+Java Model Exception: Error in Java Model (code 1006): <project root> [in ECommerceEureka] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createCpes(ClasspathUtil.java:168)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:92)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2025-04-21 10:31:03.759
+!MESSAGE <project root> [in ECommerceEureka] is not on its project's build path
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 10:31:06.001
+!MESSAGE Classpath changed for project: ECommerceEureka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 10:31:08.900
+!MESSAGE Classpath changed for project: ECommerceEureka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 10:32:55.990
+!MESSAGE Classpath changed for project: ECommerceEureka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 10:32:55.990
+!MESSAGE Boot project REMOVED: ECommerceEureka
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 10:32:55.992
+!MESSAGE Classpath changed for project: eureka-serve
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-04-21 10:32:56.163
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): ECommerceEureka does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-04-21 10:32:56.164
+!MESSAGE ECommerceEureka does not exist
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 10:32:58.884
+!MESSAGE Classpath changed for project: eureka-serve
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 10:32:58.916
+!MESSAGE Boot project ADDED: eureka-serve
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 10:32:58.986
+!MESSAGE Classpath changed for project: eureka-serve
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-04-21 10:32:58.988
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): ECommerceEureka does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-04-21 10:32:58.988
+!MESSAGE ECommerceEureka does not exist
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-04-21 10:32:59.046
+!MESSAGE Failed to refresh Code Minings for editor.
+!STACK 1
+Java Model Exception: Error in Java Model (code 969): ECommerceEureka does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2535)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2329)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:2372)
+	at org.springframework.tooling.ls.eclipse.commons.STS4LanguageClientImpl.lambda$9(STS4LanguageClientImpl.java:439)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.lambda$0(ReusableClasspathListenerHandler.java:76)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$CallbackJob.run(ReusableClasspathListenerHandler.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2025-04-21 10:32:59.046
+!MESSAGE ECommerceEureka does not exist
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-04-21 10:33:56.996
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-04-21 11:12:52.087
+!MESSAGE Could not download javadoc for org.springframework.cloud:spring-cloud-starter-gateway-mvc:4.2.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway-mvc:jar:javadoc:4.2.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.cloud:spring-cloud-starter-gateway-mvc:jar:javadoc:4.2.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2025-04-21 11:12:52.087
+!MESSAGE Could not resolve artifact org.springframework.cloud:spring-cloud-starter-gateway-mvc:jar:javadoc:4.2.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2025-04-21 11:12:52.087
+!MESSAGE Missing org.springframework.cloud:spring-cloud-starter-gateway-mvc:jar:javadoc:4.2.1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 11:12:53.573
+!MESSAGE Classpath changed for project: microservicio-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 11:12:53.574
+!MESSAGE Boot project ADDED: microservicio-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 11:13:10.514
+!MESSAGE Classpath changed for project: microservicio-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 11:13:10.598
+!MESSAGE Classpath changed for project: microservicio-gateway
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 11:17:27.350
+!MESSAGE Classpath changed for project: ECommerceCommos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 11:17:27.351
+!MESSAGE Boot project REMOVED: ECommerceCommos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 11:17:27.352
+!MESSAGE Classpath changed for project: ecommerce-commons
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 11:17:29.562
+!MESSAGE Classpath changed for project: ecommerce-commons
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 11:17:29.563
+!MESSAGE Boot project ADDED: ecommerce-commons
