@@ -1,0 +1,5 @@
+package com.kirbys.commons.controllers;
+
+public class CommonController {
+
+}

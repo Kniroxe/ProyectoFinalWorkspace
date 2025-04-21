@@ -1,0 +1,13 @@
+package com.kirbys.ecommerce_commos;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ECommerceCommosApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ECommerceCommosApplication.class, args);
+	}
+
+}

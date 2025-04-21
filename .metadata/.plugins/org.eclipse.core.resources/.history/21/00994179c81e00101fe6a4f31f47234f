@@ -1,0 +1,7 @@
+package com.kirbys.commons.models.entities;
+
+@Entity
+@Table
+public class Cliente {
+
+}

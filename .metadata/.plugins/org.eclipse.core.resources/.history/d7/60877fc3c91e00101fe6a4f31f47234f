@@ -1,0 +1,25 @@
+package com.kirbys.commons.models.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table
+public class Cliente {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_AEROLINEA")
+	@SequenceGenerator(name="SEQ_AEROLINEA", sequenceName = "SEQ_AEROLINEA", allocationSize = 1)
+	@Column(name="ID_AEROLINEA")
+	private Long id;
+	
+	private String nombre;
+	
+	private String apellido;	
+	
+	private String email;
+	
+	private Long numero;
+	
+	private String direccion;
+}

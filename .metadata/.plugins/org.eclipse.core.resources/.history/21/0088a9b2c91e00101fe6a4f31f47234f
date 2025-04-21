@@ -1,0 +1,21 @@
+package com.kirbys.commons.models.entities;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table
+public class Cliente {
+	
+	private Long id;
+	
+	private String nombre;
+	
+	private String apellido;	
+	
+	private String email;
+	
+	private Long numero;
+	
+	private String direccion;
+}
