@@ -1,70 +1,70 @@
-package com.kirbys.productos.dto;
+package com.kirbys.commons.models.entities;
 
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotBlank;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.SequenceGenerator;
+import jakarta.persistence.Table;
 
-public class ProductoDTO {
-
+@Entity
+@Table(name = "PRODUCTOS")
+public class Producto {
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_PRODUCTOS")
+	@SequenceGenerator(name="SEQ_PRODUCTOS", sequenceName = "SEQ_PRODUCTOS", allocationSize = 1)
+	@Column(name="ID_PRODUCTO")
 	private Long id;
 	
-	@NotBlank(message = "El nombre no puede estar en blanco")
+	@Column(name = "NOMBRE")
 	private String nombre;
 	
-	@NotBlank(message = "El nombre no puede estar en blanco")
+	@Column(name = "DESCRIPCION")
 	private String descripcion;
 	
-    @Min(value = 0, message = "El precio no puede ser negativo")
+	@Column(name = "PRECIO")
 	private Long precio;
-
-    @Min(value = 0, message = "El stock no puede ser negativo")
+	
+	@Column(name = "STOCK")
 	private Long stock;
-
 
 	public Long getId() {
 		return id;
 	}
 
-
 	public void setId(Long id) {
 		this.id = id;
 	}
-
 
 	public String getNombre() {
 		return nombre;
 	}
 
-
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-
 
 	public String getDescripcion() {
 		return descripcion;
 	}
 
-
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
-
 
 	public Long getPrecio() {
 		return precio;
 	}
 
-
 	public void setPrecio(Long precio) {
 		this.precio = precio;
 	}
 
-
 	public Long getStock() {
 		return stock;
 	}
-
 
 	public void setStock(Long stock) {
 		this.stock = stock;
@@ -73,4 +73,5 @@ public class ProductoDTO {
 	
 	
 	
+
 }
