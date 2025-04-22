@@ -1,5 +1,8 @@
 package com.kirbys.pedidos.servicies;
 
-public class PedidoService extends CommonService<PedidoDTO>{
+import com.kirbys.commons.servicies.CommonService;
+import com.kirbys.pedidos.dto.PedidoDTO;
+
+public interface PedidoService extends CommonService<PedidoDTO> {
 
 }

@@ -27,8 +27,6 @@ public class Pedido {
     @JoinColumn(name="CLIENTE", referencedColumnName = "ID_CLIENTE")
     private Cliente cliente;
 
-
-
 	/*
 	 * @ManyToMany(cascade = CascadeType.MERGE)
 	@JoinTable(
@@ -45,11 +43,49 @@ public class Pedido {
     @Column(name = "FECHA_CREACION ")
     private LocalDate fechaCreacion;
 
-    @Column(name = "ID_ESTADO")
-    private Long estado;
+
+    @ManyToOne
+    @JoinColumn(name="ID_ESTADO", referencedColumnName = "ID_ESTADO")
+    private Estado estado;
 
 
+    public Long getId() {
+        return id;
+    }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
 
+    public Cliente getCliente() {
+        return cliente;
+    }
 
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    public Long getTotal() {
+        return total;
+    }
+
+    public void setTotal(Long total) {
+        this.total = total;
+    }
+
+    public LocalDate getFechaCreacion() {
+        return fechaCreacion;
+    }
+
+    public void setFechaCreacion(LocalDate fechaCreacion) {
+        this.fechaCreacion = fechaCreacion;
+    }
+
+    public Estado getEstado() {
+        return estado;
+    }
+
+    public void setEstado(Estado estado) {
+        this.estado = estado;
+    }
 }
