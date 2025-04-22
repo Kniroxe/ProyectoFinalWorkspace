@@ -19,7 +19,7 @@ import com.kirbys.commons.servicies.CommonServiceImpl;
 public class ClientesServiceImpl extends 
 CommonServiceImpl<ClienteDTO, Cliente, ClienteMapper, ClienteRepository>
 implements ClienteService	{
-
+  
 	@Override
 	@Transactional(readOnly = true)
 	public List<ClienteDTO> listar() {

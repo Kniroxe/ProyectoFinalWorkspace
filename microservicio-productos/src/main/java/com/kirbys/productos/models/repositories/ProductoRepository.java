@@ -7,5 +7,5 @@ import com.kirbys.commons.models.entities.Producto;
 
 @Repository
 public interface ProductoRepository extends JpaRepository<Producto, Long>{
-
+  
 }

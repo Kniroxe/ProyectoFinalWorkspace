@@ -28,7 +28,7 @@ implements ProductoService {
 		return lista;
 	}
 
-	
+	  
 	@Override
 	@Transactional(readOnly = true)
 	public Optional<ProductoDTO> obtenerPorId(Long id) {

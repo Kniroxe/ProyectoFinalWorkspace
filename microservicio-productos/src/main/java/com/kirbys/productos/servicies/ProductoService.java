@@ -5,4 +5,4 @@ import com.kirbys.productos.dto.ProductoDTO;
 
 public interface ProductoService extends CommonService<ProductoDTO> {
 
-}
+}  

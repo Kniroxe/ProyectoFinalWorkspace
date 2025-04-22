@@ -9,7 +9,7 @@ import com.kirbys.commons.models.entities.Cliente;
 
 @Component
 public class ClienteMapper extends CommonMapper<ClienteDTO, Cliente, ClienteRepository>{
-
+  
 	@Override
 	public ClienteDTO entityToDTO(Cliente entity) {
 		ClienteDTO dto = new ClienteDTO();

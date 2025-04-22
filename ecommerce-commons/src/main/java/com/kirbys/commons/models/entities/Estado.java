@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "ESTADO")
 public class Estado {
-	
+	   
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_ESTADO")
 	@SequenceGenerator(name="SEQ_ESTADO", sequenceName = "SEQ_ESTADO", allocationSize = 1)

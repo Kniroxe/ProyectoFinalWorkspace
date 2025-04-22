@@ -11,4 +11,4 @@ public class ClienteController extends CommonController<ClienteDTO, ClienteServi
 	public ClienteController(ClienteService service) {
 		super(service);
 	}
-}
+}  

@@ -5,7 +5,7 @@ import jakarta.validation.constraints.NotBlank;
 
 public class ProductoDTO {
 
-	
+	  
 	private Long id;
 	
 	@NotBlank(message = "El nombre no puede estar en blanco")

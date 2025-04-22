@@ -9,7 +9,7 @@ import com.kirbys.productos.models.repositories.ProductoRepository;
 
 @Component
 public class ProductoMapper extends CommonMapper<ProductoDTO, Producto, ProductoRepository>{
-
+  
 	@Override
 	public ProductoDTO entityToDTO(Producto entity) {
 		ProductoDTO dto = new ProductoDTO();
