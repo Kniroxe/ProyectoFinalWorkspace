@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.kirbys</groupId>
-	<artifactId>EurekaECommerce</artifactId>
+	<artifactId>eureka-serve</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ECommerceEureka</name>
+	<name>eureka-serve</name>
 	<description>ServidorEureka para ECommerce</description>
 	<url/>
 	<licenses>
