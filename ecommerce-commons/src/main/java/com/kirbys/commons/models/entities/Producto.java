@@ -1,10 +1,20 @@
 package com.kirbys.commons.models.entities;
 
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
 import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 
@@ -30,7 +40,23 @@ public class Producto {
     @Column(name = "STOCK")
     private Long stock;
 
-    public Long getId() {
+	@ManyToMany(  mappedBy = "productos")
+	@JsonIgnore
+    private Set<Pedido> pedidos;
+	
+	public Producto() {
+		this.pedidos = new HashSet<>();
+	}
+
+	public Set<Pedido> getPedidos() {
+		return pedidos;
+	}
+
+	public void setPedidos(Set<Pedido> pedidos) {
+		this.pedidos = pedidos;
+	}
+
+	public Long getId() {
         return id;
     }
 

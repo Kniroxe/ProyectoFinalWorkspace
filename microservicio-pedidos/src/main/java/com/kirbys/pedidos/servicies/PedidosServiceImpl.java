@@ -1,5 +1,6 @@
 package com.kirbys.pedidos.servicies;
 
+import java.awt.desktop.SystemSleepEvent;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -49,7 +50,8 @@ implements PedidoService	{
 		Pedido pedido = mapper.dtoToEntity(dto);
 		repository.save(pedido);
 		dto.setId(pedido.getId());
-		return dto;
+		System.out.println(pedido.toString());
+		return mapper.entityToDTO(pedido);
 	}
 
 	@Override
@@ -58,7 +60,7 @@ implements PedidoService	{
 		System.out.println(dto.getId());
 		logger.info(Long.toString(dto.getId()));
 		Pedido pedido = mapper.dtoToEntityPost(dto);
-		repository.save(pedido);
+		//repository.save(pedido);
 		dto.setId(pedido.getId());
 		return mapper.entityToDTO(pedido);
 	}
@@ -87,5 +89,15 @@ implements PedidoService	{
 			return dto;
 		}
 		return null;
+	}
+
+	@Override
+	@Transactional
+	public List<PedidoDTO> listarPorCliente(Long id) {
+		List<PedidoDTO> lista = new ArrayList<>();
+		repository.findAllWithEstadoNotCancelado().forEach(linea->{
+			lista.add(mapper.entityToDTO(linea));
+		});
+		return lista;
 	}
 }

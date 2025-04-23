@@ -19,7 +19,7 @@ public class PedidoDTO {
     private Cliente cliente;
 
 	@NotNull(message = "Los productos no deben ser nulos")
-	private List<Producto> productos;
+	private List<Producto> productos;// cambiar a entidad nuevamente si no fucniona
     
     //@Min(value = 0, message = "El total no puede ser negativo")
     private Long total;
@@ -53,7 +53,7 @@ public class PedidoDTO {
 	public void setCliente(Cliente cliente) {
 		this.cliente = cliente;
 	}
-
+	
 	public List<Producto> getProductos() {
 		return productos;
 	}

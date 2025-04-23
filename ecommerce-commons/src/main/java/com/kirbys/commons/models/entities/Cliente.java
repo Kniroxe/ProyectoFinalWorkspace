@@ -1,10 +1,15 @@
 package com.kirbys.commons.models.entities;
 
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 
@@ -33,6 +38,10 @@ public class Cliente {
 
 	@Column(name="DIRECCION")
 	private String direccion;
+	//quitar los pedidos
+	@OneToMany(mappedBy = "cliente")
+	@JsonManagedReference
+	List<Pedido> pedidos;
 
 	public Long getId() {
 		return id;
@@ -80,5 +89,13 @@ public class Cliente {
 
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
+	}
+
+	public List<Pedido> getPedidos() {
+		return pedidos;
+	}
+
+	public void setPedidos(List<Pedido> pedidos) {
+		this.pedidos = pedidos;
 	}
 }

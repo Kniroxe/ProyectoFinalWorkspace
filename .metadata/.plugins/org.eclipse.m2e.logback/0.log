@@ -1244,3 +1244,419 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.leonardo:
 2025-04-22 18:25:19,274 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-04-22 18:25:19,288 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-04-22 18:25:19,296 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:06:07,756 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-22 22:08:50,215 [Worker-13: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier  to /ecommerce-commons/target/classes
+2025-04-22 22:08:50,571 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:08:50,593 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:08:50,604 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:09:22,625 [Worker-4: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier  to /ecommerce-commons/target/classes
+2025-04-22 22:09:25,004 [Worker-3: Launching microservicio-clientes - MicroservicioClienteApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-22 22:09:25,422 [Worker-3: Launching microservicio-clientes - MicroservicioClienteApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-22 22:09:25,779 [Worker-3: Launching microservicio-clientes - MicroservicioClienteApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-22 22:09:48,173 [Worker-6: Launching microservicio-pedidos - MicroservicioPedidosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-22 22:09:48,739 [Worker-6: Launching microservicio-pedidos - MicroservicioPedidosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-22 22:09:49,298 [Worker-6: Launching microservicio-pedidos - MicroservicioPedidosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-22 22:09:51,283 [Worker-0: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier  to /ecommerce-commons/target/classes
+2025-04-22 22:09:57,908 [Worker-7: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-22 22:09:58,370 [Worker-7: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-22 22:09:58,835 [Worker-7: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-22 22:10:22,165 [Worker-2: Launching microservicio-pedidos - MicroservicioPedidosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-22 22:10:22,583 [Worker-2: Launching microservicio-pedidos - MicroservicioPedidosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-22 22:10:23,085 [Worker-2: Launching microservicio-pedidos - MicroservicioPedidosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-22 22:13:22,166 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:13:22,194 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:13:22,199 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:14:27,743 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:14:27,755 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:14:27,759 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:16:11,116 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:16:11,124 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:16:11,128 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:18:23,922 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:18:23,930 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:18:23,934 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:29:17,744 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:29:17,786 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:29:17,791 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:29:26,077 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:29:26,081 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:29:26,086 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:29:31,024 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:29:31,046 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:29:31,054 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:30:15,171 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:30:15,176 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:30:15,180 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:35:10,635 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:35:10,655 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:35:10,661 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:35:16,963 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:35:16,971 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:35:16,976 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:35:37,157 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:35:37,171 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:35:37,176 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:35:48,203 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:35:48,216 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:35:48,219 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:35:59,480 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:35:59,497 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:35:59,500 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:43:01,510 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:43:01,570 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:43:01,572 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:43:13,637 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:43:13,642 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:43:13,646 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:43:36,960 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:43:36,968 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:43:36,973 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:49:02,216 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:49:02,228 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:49:02,232 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:49:12,053 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:49:12,071 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:49:12,075 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:49:25,090 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:49:25,096 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:49:25,100 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:49:48,506 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:49:48,512 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:49:48,515 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:50:06,785 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:50:06,793 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:50:06,797 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:50:25,959 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:50:25,964 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:50:25,966 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:51:12,051 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:51:12,056 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:51:12,059 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:51:36,735 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:51:36,742 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:51:36,748 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:51:39,909 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:51:39,912 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:51:39,914 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:51:50,607 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:51:50,611 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:51:50,613 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:51:54,780 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:51:54,786 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:51:54,792 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-22 22:54:54,081 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:54:54,088 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:54:54,091 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:55:00,271 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:55:00,278 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:55:00,283 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:55:11,996 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:55:12,002 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:55:12,005 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:56:08,345 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:56:08,349 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:56:08,352 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:56:14,550 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:56:14,555 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:56:14,559 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:56:28,441 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:56:28,446 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:56:28,449 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-22 22:56:34,127 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-22 22:56:34,132 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-22 22:56:34,135 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 06:17:58,198 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-23 06:25:02,534 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier  to /ecommerce-commons/target/classes
+2025-04-23 06:25:03,298 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 06:25:03,333 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 06:25:03,345 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 06:25:05,466 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 06:25:05,473 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 06:25:05,480 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:05:53,813 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:05:53,838 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:05:53,849 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:06:08,809 [Worker-23: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier  to /ecommerce-commons/target/classes
+2025-04-23 08:06:11,363 [Worker-23: Launching microservicio-clientes - MicroservicioClienteApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:06:12,427 [Worker-23: Launching microservicio-clientes - MicroservicioClienteApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:06:13,376 [Worker-23: Launching microservicio-clientes - MicroservicioClienteApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:07:00,546 [Worker-25: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier  to /ecommerce-commons/target/classes
+2025-04-23 08:07:01,431 [Worker-25: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:07:02,279 [Worker-25: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:07:03,101 [Worker-25: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:07:04,919 [Worker-26: Launching microservicio-pedidos - MicroservicioPedidosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:07:05,915 [Worker-26: Launching microservicio-pedidos - MicroservicioPedidosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:07:06,934 [Worker-26: Launching microservicio-pedidos - MicroservicioPedidosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:14:12,830 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:14:12,866 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:14:12,872 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:25:20,449 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:25:20,545 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:25:20,558 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:25:30,948 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:25:30,979 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:25:30,988 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:25:47,259 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:25:47,267 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:25:47,274 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:26:32,111 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:26:32,121 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:26:32,129 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:26:41,139 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:26:41,150 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:26:41,157 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:27:10,708 [Worker-22: Launching microservicio-clientes - MicroservicioClienteApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:27:11,626 [Worker-22: Launching microservicio-clientes - MicroservicioClienteApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:27:12,549 [Worker-22: Launching microservicio-clientes - MicroservicioClienteApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:27:14,350 [Worker-39: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:27:15,351 [Worker-39: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:27:16,629 [Worker-39: Launching microservicio-productos - MicroservicioProductosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:27:16,890 [Worker-36: Launching microservicio-pedidos - MicroservicioPedidosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:27:18,120 [Worker-36: Launching microservicio-pedidos - MicroservicioPedidosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:27:19,426 [Worker-36: Launching microservicio-pedidos - MicroservicioPedidosApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ecommerce-commons: com.kirbys:ecommerce-commons:0.0.1-SNAPSHOT with classifier null to /ecommerce-commons/target/classes
+2025-04-23 08:29:05,896 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:29:05,910 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:29:05,918 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:29:11,978 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:29:11,989 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:29:12,000 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:30:31,257 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:30:31,277 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:30:31,284 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:31:08,689 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:31:08,703 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:31:08,712 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:33:29,572 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:33:29,619 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:33:29,638 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:44:34,921 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:44:34,966 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:44:34,976 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:47:09,906 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:47:09,916 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:47:09,922 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:47:18,581 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:47:18,724 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:47:18,732 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:47:21,107 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:47:21,120 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:47:21,128 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:47:25,234 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:47:25,251 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:47:25,258 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:49:29,013 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:49:29,035 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:49:29,041 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:49:47,136 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:49:47,215 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:49:47,227 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 08:52:22,919 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:52:23,009 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:52:23,014 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 08:52:28,990 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:52:29,062 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:52:29,068 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 08:52:30,965 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:52:30,995 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:52:31,001 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 08:53:47,759 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:53:47,774 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:53:47,781 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:59:01,837 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:59:01,880 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:59:01,885 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 08:59:17,512 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 08:59:17,523 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 08:59:17,530 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 09:07:16,761 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 09:07:16,841 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 09:07:16,847 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 09:08:17,839 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 09:08:17,925 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 09:08:17,935 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 09:08:22,523 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 09:08:22,561 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 09:08:22,570 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 09:20:00,996 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 09:20:01,047 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 09:20:01,057 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 09:21:32,365 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 09:21:32,377 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 09:21:32,385 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 09:22:52,178 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 09:22:52,188 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 09:22:52,196 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 09:27:28,304 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 09:27:28,428 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 09:27:28,432 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 09:27:49,127 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 09:27:49,262 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 09:27:49,266 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 09:27:53,837 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 09:27:53,946 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 09:27:53,950 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 09:28:38,440 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 09:28:38,447 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 09:28:38,451 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 09:29:38,268 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 09:29:38,278 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 09:29:38,282 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 09:29:45,008 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 09:29:45,016 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 09:29:45,018 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:17:38,100 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:17:38,258 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:17:38,263 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:17:53,265 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:17:53,270 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:17:53,274 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:49:55,952 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:49:56,061 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:49:56,069 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 10:50:16,865 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:50:16,954 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:50:16,958 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 10:50:47,942 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:50:47,949 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:50:47,951 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 10:51:18,074 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:51:18,086 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:51:18,089 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:51:38,205 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:51:38,215 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:51:38,219 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:51:59,660 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:51:59,676 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:51:59,679 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:52:09,562 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:52:09,566 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:52:09,570 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:52:14,108 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:52:14,114 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:52:14,117 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:52:27,106 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:52:27,111 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:52:27,115 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:52:42,578 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:52:42,584 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:52:42,586 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:53:26,751 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:53:26,776 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:53:26,780 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:53:49,528 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:53:49,546 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:53:49,550 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:56:24,611 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:56:24,616 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:56:24,619 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:56:32,884 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:56:32,889 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:56:32,893 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 10:56:52,090 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 10:56:52,139 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 10:56:52,142 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-pedidos\src\test\resources
+2025-04-23 11:22:40,750 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:22:40,802 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:22:40,811 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 11:22:48,043 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:22:48,410 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:22:48,419 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 11:23:21,359 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:23:21,435 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:23:21,438 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 11:23:23,221 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:23:23,240 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:23:23,243 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 11:23:29,616 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:23:29,624 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:23:29,627 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 11:25:12,534 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:25:12,547 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:25:12,551 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 11:35:35,476 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:35:35,490 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:35:35,494 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 11:36:47,431 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:36:47,537 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:36:47,544 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources
+2025-04-23 11:52:04,914 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:52:05,038 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:52:05,049 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 11:52:17,182 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:52:17,257 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:52:17,261 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 11:53:54,127 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:53:54,135 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:53:54,139 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 11:54:23,918 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:54:23,924 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:54:23,928 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 11:54:39,334 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:54:39,410 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:54:39,413 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 11:54:40,683 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:54:40,688 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:54:40,691 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 11:55:52,912 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:55:52,917 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:55:52,920 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 11:55:58,525 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:55:58,540 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:55:58,543 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 11:56:05,583 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:56:05,595 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:56:05,598 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 11:56:20,157 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:56:20,167 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:56:20,170 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 11:56:35,725 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:56:35,745 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:56:35,748 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 11:56:38,988 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:56:38,998 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:56:39,002 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 11:56:54,385 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 11:56:54,394 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 11:56:54,398 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:02:21,145 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:02:21,266 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:02:21,271 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:02:57,807 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:02:57,816 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:02:57,819 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:06:11,239 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:06:11,293 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:06:11,295 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:06:20,187 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:06:20,276 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:06:20,279 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:07:29,193 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:07:29,306 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:07:29,308 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:07:50,578 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:07:50,582 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:07:50,585 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:14:49,670 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:14:49,692 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:14:49,696 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:14:50,796 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:14:50,812 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:14:50,814 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:16:04,332 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:16:04,373 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:16:04,377 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:17:33,493 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:17:33,520 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:17:33,523 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:18:09,327 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:18:09,372 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:18:09,377 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:18:13,141 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:18:13,196 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:18:13,200 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:20:43,158 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:20:43,172 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:20:43,175 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\microservicio-clientes\src\test\resources
+2025-04-23 12:20:49,949 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-23 12:20:49,962 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-23 12:20:49,966 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\ProyectoFinalWorkspace\ecommerce-commons\src\test\resources

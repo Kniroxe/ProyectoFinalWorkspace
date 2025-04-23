@@ -1,5 +1,9 @@
 package com.kirbys.clientes.dto;
 
+import java.util.List;
+
+import com.kirbys.commons.models.entities.Pedido;
+
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
@@ -24,7 +28,9 @@ public class ClienteDTO {
     @NotBlank(message = "La dirección no puede estar en blanco")
     private String direccion;
 
-    public Long getId() {
+	List<Pedido> pedidos;
+
+	public Long getId() {
         return id;
     }
 
@@ -72,5 +78,11 @@ public class ClienteDTO {
         this.direccion = direccion;
     }
 
+	public List<Pedido> getPedidos() {
+		return pedidos;
+	}
 
+	public void setPedidos(List<Pedido> pedidos) {
+		this.pedidos = pedidos;
+	}
 }

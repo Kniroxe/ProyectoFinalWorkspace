@@ -32,6 +32,16 @@ public class ClientesServiceImpl extends
 
     @Override
     @Transactional(readOnly = true)
+	public List<Cliente> listarPedidos() {
+    	List<Cliente> lista = new ArrayList<>();
+        repository.findAll().forEach(Cliente ->{
+            lista.add(Cliente);
+        });
+        return lista;
+	}
+
+	@Override
+    @Transactional(readOnly = true)
     public Optional<ClienteDTO> obtenerPorId(Long id) {
         Optional<Cliente> opt = repository.findById(id);
         if(opt.isPresent()) {

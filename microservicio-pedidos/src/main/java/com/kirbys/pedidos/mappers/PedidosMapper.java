@@ -34,7 +34,11 @@ public class PedidosMapper extends CommonMapper<PedidoDTO, Pedido, PedidoReposit
         PedidoDTO dto = new PedidoDTO();
         dto.setId(entity.getId());
         dto.setCliente(entity.getCliente());
-        dto.setProductos(entity.getProductos());
+        List<Producto> productos = new ArrayList<>();
+        entity.getProductos().forEach(producto->{
+        	productos.add(producto);
+        });
+        dto.setProductos(productos);
         dto.setTotal(entity.getTotal());
         dto.setFechaCreacion(entity.getFechaCreacion());
         dto.setEstado(entity.getEstado());
@@ -45,17 +49,17 @@ public class PedidosMapper extends CommonMapper<PedidoDTO, Pedido, PedidoReposit
     @Override
     public Pedido dtoToEntity(PedidoDTO dto) {
         Pedido entity = new Pedido();
-        //entity.setId(dto.getId());
+        entity.setId(dto.getId());
         Cliente cliente = clienteClient.getClienteById(dto.getCliente().getId());
         if(cliente!= null)
-        	entity.setCliente(dto.getCliente());
+        	entity.setCliente(cliente);
         
         List<Producto> productos = new ArrayList<>();
         dto.getProductos().forEach(producto->{
-			Optional<Producto> productoTemp = Optional.of(productoClient.getProductoById(producto.getId()));
-        	if(productoTemp.isPresent()) {
-        		productos.add(productoTemp.get());
-        	}
+			Producto productoTemp = productoClient.getProductoById(producto.getId());
+        		if(productoTemp!=null) {// ver si es por esto
+            		productos.add(productoTemp);        			
+        		}        	
         });
         entity.setProductos(productos);
         entity.setTotal(dto.getTotal());
