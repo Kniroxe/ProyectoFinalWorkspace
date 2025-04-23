@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
-@EntityScan({"com.leonardo.commons.models.entities"})
+@EntityScan({"com.kirbys.commons.models.entities"})
 @EnableFeignClients
 public class MicroservicioPedidosApplication {
 

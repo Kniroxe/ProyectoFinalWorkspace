@@ -17,8 +17,8 @@ public class ClienteDTO {
     @NotBlank(message = "El email no puede estar en blanco")
     private String email;
 
-    @Min(value = 10, message = "El telefono no puede ser menor a 10 dijitos")
-    @Max(value = 11, message = "El telefono no puede ser mayor a 11 dijitos")
+    //@Min(value = 10, message = "El telefono no puede ser menor a 10 digitos")
+    //@Max(value = 10, message = "El telefono no puede ser mayor a 11 digitos")
     private Long telefono;
 
     @NotBlank(message = "La dirección no puede estar en blanco")
