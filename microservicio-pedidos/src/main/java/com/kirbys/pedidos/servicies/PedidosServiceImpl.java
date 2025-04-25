@@ -70,11 +70,12 @@ implements PedidoService	{
 	public PedidoDTO editar(PedidoDTO dto, Long id) {
 		Optional<Pedido> opt = repository.findById(id);
 		if(opt.isPresent()) {
-			dto.setId(id);
-			repository.save(mapper.dtoToEntity(dto));
-			return dto;
+			Pedido pedido = opt.get();
+			pedido.setEstado(dto.getEstado());
+			repository.save(pedido);			 
+			return mapper.entityToDTO(pedido);
 		}
-		return null;
+		return null;		 
 	}
 
 	@Override
@@ -82,13 +83,22 @@ implements PedidoService	{
 	public PedidoDTO eliminar(Long id) {
 		Optional<Pedido> opt = repository.findById(id);
 		if(opt.isPresent()) {
-			opt.get().setEstado(4L);
-			PedidoDTO dto = mapper.entityToDTO(opt.get());
-			repository.save(mapper.dtoToEntity(dto));
+
+			Pedido pedido = opt.get();
+			pedido.setEstado(4L);
 			//repository.deleteById(id);
-			return dto;
+			return mapper.entityToDTO(pedido);
 		}
 		return null;
+		/*Optional<Pedido> opt = repository.findById(id);
+		if(opt.isPresent()) {
+			opt.get().setEstado(4L);
+			PedidoDTO dto = mapper.entityToDTO(opt.get());
+			Pedido pedido = repository.save(mapper.dtoToEntity(dto));
+			//repository.deleteById(id);
+			return mapper.entityToDTO(pedido);
+		}
+		return null;*/
 	}
 
 	@Override

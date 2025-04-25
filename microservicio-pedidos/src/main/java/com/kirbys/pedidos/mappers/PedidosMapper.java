@@ -1,6 +1,7 @@
 package com.kirbys.pedidos.mappers;
 
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -41,7 +42,7 @@ public class PedidosMapper extends CommonMapper<PedidoDTO, Pedido, PedidoReposit
         dto.setProductos(productos);
         dto.setTotal(entity.getTotal());
         dto.setFechaCreacion(entity.getFechaCreacion());
-        dto.setEstado(entity.getEstado());
+        dto.setEstado(entity.getEstado());// crear DTO para evitar poner mal el estado
         
         return dto;
     }
@@ -62,7 +63,43 @@ public class PedidosMapper extends CommonMapper<PedidoDTO, Pedido, PedidoReposit
         		}        	
         });
         entity.setProductos(productos);
+        entity.setTotal(0L);
+        dto.getProductos().forEach(producto->{
+			Optional<Producto> productoTemp = Optional.of(productoClient.getProductoById(producto.getId()));
+        	if(productoTemp.isPresent()) {
+        		//productos.add(productoTemp.get());
+        		entity.setTotal(entity.getTotal()+productoTemp.get().getPrecio());
+        	}
+        });
+        entity.setFechaCreacion(LocalDate.now());
+        entity.setEstado(1L);
+
+        return entity;
+    }
+    
+    public Pedido dtoToEntityPut(PedidoDTO dto) {
+        Pedido entity = new Pedido();
+        entity.setId(dto.getId());
+        Cliente cliente = clienteClient.getClienteById(dto.getCliente().getId());
+        if(cliente!= null)
+        	entity.setCliente(cliente);
+        
+        List<Producto> productos = new ArrayList<>();
+        dto.getProductos().forEach(producto->{
+			Producto productoTemp = productoClient.getProductoById(producto.getId());
+        		if(productoTemp!=null) {// ver si es por esto
+            		productos.add(productoTemp);        			
+        		}        	
+        });
+        entity.setProductos(productos);
         entity.setTotal(dto.getTotal());
+        dto.getProductos().forEach(producto->{
+			Optional<Producto> productoTemp = Optional.of(productoClient.getProductoById(producto.getId()));
+        	if(productoTemp.isPresent()) {
+        		//productos.add(productoTemp.get());
+        		entity.setTotal(entity.getTotal()+productoTemp.get().getPrecio());
+        	}
+        });
         entity.setFechaCreacion(dto.getFechaCreacion());
         entity.setEstado(dto.getEstado());
 

@@ -22,7 +22,7 @@ public class PedidoController extends CommonController<PedidoDTO, PedidoService>
 	public PedidoController(PedidoService service) {
 		super(service);
 	}
-
+/*
 	@PostMapping("/crear")
 	public ResponseEntity<?> post(@Valid PedidoDTOPost dto, BindingResult result) {// hay que cambiar el ? por lo que retorna
 		if(result.hasErrors()) {
@@ -39,5 +39,5 @@ public class PedidoController extends CommonController<PedidoDTO, PedidoService>
 		}
 		return ResponseEntity.notFound().build();
 	}
-
+*/
 }

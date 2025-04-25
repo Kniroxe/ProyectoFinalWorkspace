@@ -11,7 +11,7 @@ public class ProductoDTO {
     @NotBlank(message = "El nombre no puede estar en blanco")
     private String nombre;
 
-    @NotBlank(message = "El nombre no puede estar en blanco")
+    @NotBlank(message = "La descripcion no puede estar en blanco")
     private String descripcion;
 
     @Min(value = 0, message = "El precio no puede ser negativo")

@@ -42,12 +42,16 @@ public class ClienteMapper extends CommonMapper<ClienteDTO, Cliente, ClienteRepo
         entity.setEmail(dto.getEmail());
         entity.setTelefono(dto.getTelefono());
         entity.setDireccion(dto.getDireccion());
-        
-        List<Pedido> pedidos = new ArrayList<>();
-        dto.getPedidos().forEach(pedido->{
-        	pedidos.add(pedido);
-        });
-        entity.setPedidos(pedidos);
+        if(dto.getPedidos()!=null) {
+            List<Pedido> pedidos = new ArrayList<>();
+            dto.getPedidos().forEach(pedido->{
+            	pedidos.add(pedido);
+            });
+            entity.setPedidos(pedidos);	
+        }else {
+        	List<Pedido> pedidos = new ArrayList<>();
+            entity.setPedidos(pedidos);	
+        }
         return entity;
     }
 

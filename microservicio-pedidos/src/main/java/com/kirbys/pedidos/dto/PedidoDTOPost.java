@@ -7,20 +7,20 @@ import com.kirbys.commons.models.entities.Cliente;
 import com.kirbys.commons.models.entities.Producto;
 
 import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Past;
 
 public class PedidoDTOPost {
 
     private Long id;
 
-    //@NotNull(message = "El cliente no puede ser nuloooo")
+    @NotNull(message = "El cliente no puede ser nuloooo")
     private Cliente cliente;
 
-	//@NotNull(message = "Los productos no deben ser nulos")
+	@NotNull(message = "Los productos no deben ser nulos")
 	private Set<Producto> productos;
     
-//añadir validación, no olvidar
+    @Past(message = "La fecha de creación debe ser anterior a la fecha actual")
     private LocalDate fechaCreacion;
-
 
 
     public Long getId() {

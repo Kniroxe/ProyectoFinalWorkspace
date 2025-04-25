@@ -8,8 +8,11 @@ import com.kirbys.commons.models.entities.Cliente;
 import com.kirbys.commons.models.entities.Estado;
 import com.kirbys.commons.models.entities.Producto;
 
+import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Past;
+import jakarta.validation.constraints.PastOrPresent;
 
 public class PedidoDTO {
 
@@ -19,14 +22,17 @@ public class PedidoDTO {
     private Cliente cliente;
 
 	@NotNull(message = "Los productos no deben ser nulos")
-	private List<Producto> productos;// cambiar a entidad nuevamente si no fucniona
+	private List<Producto> productos;
     
-    //@Min(value = 0, message = "El total no puede ser negativo")
+    @Min(value = 0, message = "El total no puede ser negativo")
     private Long total;
-//añadir validación, no olvidar
+    
+    @PastOrPresent(message = "La fecha de creación debe ser anterior a la fecha actual")
     private LocalDate fechaCreacion;
-
- //Cambiar para que este entre 1 y 4   @NotNull(message = "El estado no puede ser nulo")
+    
+    //cambiado
+    //@Min(value = 1, message = "El estado debe ser mínimo 1")
+    //@Max(value = 4, message = "El estado debe ser máximo 4")
     private Long estado;
 
 

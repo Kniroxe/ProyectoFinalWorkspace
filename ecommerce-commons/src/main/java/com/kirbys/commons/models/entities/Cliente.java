@@ -1,5 +1,6 @@
 package com.kirbys.commons.models.entities;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
@@ -42,6 +43,10 @@ public class Cliente {
 	@OneToMany(mappedBy = "cliente")
 	@JsonManagedReference
 	List<Pedido> pedidos;
+
+	public Cliente() {
+		this.pedidos = new ArrayList<>();
+	}
 
 	public Long getId() {
 		return id;
